@@ -1,1 +1,1 @@
-LIBGL_ALWAYS_SOFTWARE=1 flatpak run com.usebottles.bottles
+chmod +x ~/bottles.sh

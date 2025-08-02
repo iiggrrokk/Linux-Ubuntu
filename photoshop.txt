@@ -1,1 +1,12 @@
-flatpak install flathub com.usebottles.bottles -y
+pavel@pavel-VirtualBox:~$ flatpak run com.usebottles.bottles
+07:35:56 (INFO) Launching with URI: None 
+07:35:56 (INFO) [Activate] request received. 
+07:35:56 (INFO) Bottles Started! 
+07:35:57 (INFO) Performing Bottles checks… 
+07:35:57 (INFO) Runners found:
+	 - sys-wine-10.0
+ 
+07:35:57 (INFO) Catalog installers loaded 
+07:35:57 (INFO) Catalog dependencies loaded 
+07:35:57 (INFO) Catalog components loaded 
+

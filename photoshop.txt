@@ -1,1 +1,1 @@
-GDK_BACKEND=x11 flatpak run com.usebottles.bottles
+LIBGL_ALWAYS_SOFTWARE=1 flatpak run com.usebottles.bottles

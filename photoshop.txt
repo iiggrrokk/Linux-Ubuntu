@@ -1,1 +1,11 @@
-chmod +x ~/bottles.sh
+mkdir -p ~/.local/share/applications
+nano ~/.local/share/applications/bottles-fixed.desktop
+
+[Desktop Entry]
+Name=Bottles (Fixed)
+Comment=Run Bottles with software rendering
+Exec=env LIBGL_ALWAYS_SOFTWARE=1 flatpak run com.usebottles.bottles
+Icon=com.usebottles.bottles
+Terminal=false
+Type=Application
+Categories=Utility;

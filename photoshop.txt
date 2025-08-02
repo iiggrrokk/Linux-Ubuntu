@@ -1,5 +1,1 @@
-https://drive.google.com/file/d/10sgFZASQ8aiOi5TGbTw6ezBFFohZc-lb/view
-sudo apt install flatpak -y
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub com.usebottles.bottles
-flatpak run com.usebottles.bottles
+sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
